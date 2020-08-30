@@ -330,13 +330,13 @@ h2 {
 
  h1 {
    text-align: center;
-   font-size: 30px;
+   font-size: 50px;
    font-weight: bold;
   }
  
   .p-bold {
-   padding-bottom: 8px;
-   font-size: 17px;
+   padding-bottom: 10px;
+   font-size: 20px;
    font-weight: bold;
   }
 
@@ -390,21 +390,35 @@ h2 {
    border: none;
  }
  
- /* Our Advantage */
  
- .ourAdvantege-Reviews-img { 
-   border-radius: 50%;
-   height: 180px; 
- }
+/* Our Advantage */
 
- /* /Our Advantage */
+
+.OurAdvantage {
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.ourAdvantege-text {border: solid 2px red;
+  padding: 20px;
+}
+.ourAdvantege-biog-p {
+  font-size: 20px;
+}
+.p-bold {
+  font-size: 30px;
+}
+/* /Our Advantage */
+
  
  
  /* best shop */
  .best-shop-img img {
    margin: auto;
-   width: 410px;
-   padding: 10px;
+   width: 780px;
+   padding: 40px;
    flex-direction: row;
    flex-wrap: wrap;
  }
@@ -413,7 +427,54 @@ h2 {
  }
  /* /best shop */
  
- /* weOffer-block */
+
+ 
+/* weOffer-block */
+.weOffer-biges-block {
+  padding: 100px 0px 100px 0px;
+}
+.weOffer-big-block {
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-between;
+  
+}
+.weOffer-block {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+}
+.weOffer-block:hover {
+  background: #f5f5f5;
+  transition: 0.2s linear; /* Плавность */
+}
+.weOffer-block img {
+  padding: 10px;
+  width: 470px;
+}
+
+.weOffer-block p {
+  font-size: 30px;
+}
+
+.p-bold-Offer {
+  font-size: 30px;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+
+.toOrder {
+  width: 500px;
+  margin-top: 20px;
+  padding: 20px;
+  background: #926f6f;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
  .weOffer-biges-block {
    padding: 80px 0px 60px 0px;
  }
@@ -425,24 +486,38 @@ h2 {
    
  }
  .weOffer-block {
-  width: 410px;
+  margin: auto; 
+  width: 510px;
   text-align: center;
   padding: 30px 0px 30px 0px;
  }
  .weOffer-block:hover {
-   background: #f5f5f5;
-   transition: 0.2s linear; /* Плавность */
+  background: #f5f5f5;
+  transition: 0.2s linear; /* Плавность */
  }
+
  
+.weOffer-info {
+  padding: 300px 0px 300px 0px;
+  text-align: center;
+}
+.callback-info {
+  font-size: 50px;
+}
+.toOrder-info {border: solid 2px red;
+  padding: 15px 0px 15px 0px;
+  margin: 100px 0px 100px 0px;
+  font-size: 50px;
+  width: 500px;
+  background: #926f6f;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.callback-info2 {
+  font-size: 30px;
+}
  /* /weOffer-block */
 
 }
-/* 
-@media(max-width: 768px) {
-
- 
-}
-
-@media (max-width: 576px) {
-  
-} */
