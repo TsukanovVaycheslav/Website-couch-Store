@@ -388,7 +388,10 @@ h2 {
 }
 
 /* /Расскажите о вашей компании, Расскажите о вашем товаре, Условия оплаты и доставки */
- .OurAdvantage-every-day {
+.block-OurAdvantage h1{
+  padding-top: 50px;
+}
+.OurAdvantage-every-day {
   font-size: 30px;
  }
   .p-bold {
@@ -425,7 +428,7 @@ h2 {
    top: 360px;
    left: 45px;
    text-align: center;
-   font-size: 20px;
+   font-size: 30px;
    background: rgb(158, 143, 143);
    opacity: 0.8;
    padding: 10px;
@@ -433,14 +436,15 @@ h2 {
  }
  .LeaveRequest {
    position: absolute;
-   top: 430px;
-   left: 305px;
+   top: 500px;
+   left: 250px;
    text-align: center;
    font-size: 30px;
    padding: 15px;
    margin-top: 20px;
    border-radius: 13px;
-   width: 400px;
+   width: 550px;
+   height: 80px;
    color: #fff;
    background: rgb(150, 139, 117);;
    cursor: pointer;
