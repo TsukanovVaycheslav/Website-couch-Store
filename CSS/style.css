@@ -98,7 +98,7 @@ header p {
 .LeaveRequest {
   position: absolute;
   top: 520px;
-  left: 460px;
+  left: 430px;
   text-align: center;
   font-size: 30px;
   padding: 15px;
@@ -140,6 +140,7 @@ h2 {
 .tellUsCompany img {
   width: 40%;
   height: 20%;
+  border-radius: 5px;
 }
 
 /* /Расскажите о вашей компании, Расскажите о вашем товаре, Условия оплаты и доставки */
@@ -334,6 +335,25 @@ h2 {
    font-weight: bold;
   }
 
+/* header */
+header p {
+  font-size: 40px;
+}
+.header-link {
+  display: none;
+}
+
+.contacts-link, .contact{
+  font-size: 40px;
+}
+.contact {
+  margin-top: 10px;
+  width: 400px;
+}
+
+
+/* /header */
+
   /* Расскажите о вашей компании, Расскажите о вашем товаре, Условия оплаты и доставки */
 .tellUsCompany { 
   flex-direction: row;
@@ -345,25 +365,32 @@ h2 {
 
 h2 {
   font-size: 50px;
+  text-align: center;
 }
 
 .header-Company {
   margin-top: 30px;
   font-size: 30px;
   font-style: normal;
+  text-align: center;
 }
 
 .tellUsCompany p{
   margin: 20px;
+  text-align: center;
 }
 
 .tellUsCompany img {
-  width: 100%;
+  width: 95%;
+  margin: auto;
+  border-radius: 5px;
   /* height: 20%; */
 }
 
 /* /Расскажите о вашей компании, Расскажите о вашем товаре, Условия оплаты и доставки */
- 
+ .OurAdvantage-every-day {
+  font-size: 30px;
+ }
   .p-bold {
    padding-bottom: 10px;
    font-size: 20px;
@@ -427,6 +454,7 @@ h2 {
 .OurAdvantage {
   flex-direction: row;
   flex-wrap: wrap;
+ 
   /* display: flex;
   justify-content: space-between; */
 }
@@ -435,10 +463,15 @@ h2 {
   padding: 20px;
 }
 .ourAdvantege-biog-p {
-  font-size: 20px;
+  font-size: 30px;
 }
 .p-bold {
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.ourAdvantege-img {
+  height: 70%;
+  width: 100%;
 }
 /* /Our Advantage */
 
@@ -480,25 +513,26 @@ h2 {
 }
 .weOffer-block img {
   padding: 10px;
-  width: 470px;
+  width: 500px;
 }
 
 .weOffer-block p {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .p-bold-Offer {
-  font-size: 30px;
+  font-size: 50px;
   margin: 10px 10px;
   font-weight: bold;
 }
 
 .toOrder {
   width: 500px;
+  height: 100px;
   margin-top: 20px;
   padding: 20px;
   background: #926f6f;
-  font-size: 18px;
+  font-size: 50px;
   color: #fff;
   border-radius: 10px;
   cursor: pointer;
@@ -527,6 +561,38 @@ h2 {
  }
 
  
+
+ .ourAdvantege-text-img-mini {
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  /* display: flex;
+  justify-content: space-between;
+   */
+}
+.ourAdvantege-Reviews-img-mini {
+  margin: auto;
+  width: 50%;
+  height: 40%;
+  border-radius: 50%;
+  margin-top: 50px;
+  
+}
+.ourAdvantege-biog-p {
+  font-size: 40px;
+  margin-bottom: 100px;
+}
+
+
+.header-Company {
+  font-size: 35px;
+  
+}
+.tellUsCompany div {
+  padding: 50px;
+}
+
+ 
 .weOffer-info {
   padding: 300px 0px 300px 0px;
   text-align: center;
@@ -539,6 +605,7 @@ h2 {
   margin: 100px 0px 100px 0px;
   font-size: 50px;
   width: 500px;
+  height: 150px;
   background: #926f6f;
   color: #fff;
   border-radius: 10px;
@@ -546,7 +613,7 @@ h2 {
   border: none;
 }
 .callback-info2 {
-  font-size: 30px;
+  font-size: 50px;
 }
  /* /weOffer-block */
 /* footer */
