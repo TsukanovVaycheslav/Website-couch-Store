@@ -3,6 +3,9 @@
    padding: 0
  }
 
+
+
+
 body {
   font-family: 'Raleway', sans-serif;
  }
@@ -280,6 +283,7 @@ h2 {
 }
 .foot a img {
   border-radius: 15px;
+  margin-left: 10px;
 }
 
 
